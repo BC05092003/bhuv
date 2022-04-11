@@ -1,0 +1,39 @@
+/*
+quadratic equation
+roll no:64
+name:bhuvan c
+*/
+#include <stdio.h>
+int main()
+{
+  float a,b,c;
+  float r1,r2;
+  float discriminant;
+  {
+  scanf("%f%f%f",&a,&b,&c);
+  scanf("%f%f",&r1,&r2);
+  scanf("%f",&discriminant);
+  }
+  if (a==0)
+ {
+  printf("the equation is linear\n");
+  
+ }
+ else
+ {
+   discriminant=b*b+4*a*c;
+  if(discriminant==0)
+  {
+    printf("real and equal roots\n");
+  }
+  else if(discriminant>0)
+  {
+    printf("real and distinct roots\n");
+    r1= (-b+(discriminant))
+  }
+  else
+  {
+    printf("imaginary roots\n");
+  }
+  }
+  }
